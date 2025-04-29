@@ -43,9 +43,10 @@ namespace RestTime
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(20, 0);
+            this.button3.Location = new System.Drawing.Point(15, 0);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 30);
+            this.button3.Size = new System.Drawing.Size(75, 24);
             this.button3.TabIndex = 2;
             this.button3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
@@ -61,9 +62,10 @@ namespace RestTime
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(120, 0);
+            this.button2.Location = new System.Drawing.Point(90, 0);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(20, 30);
+            this.button2.Size = new System.Drawing.Size(15, 24);
             this.button2.TabIndex = 1;
             this.button2.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button2.UseVisualStyleBackColor = false;
@@ -80,8 +82,9 @@ namespace RestTime
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 4.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(20, 30);
+            this.button1.Size = new System.Drawing.Size(15, 24);
             this.button1.TabIndex = 0;
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button1.UseVisualStyleBackColor = false;
@@ -89,17 +92,18 @@ namespace RestTime
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(140, 30);
+            this.ClientSize = new System.Drawing.Size(105, 24);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(140, 30);
-            this.MinimumSize = new System.Drawing.Size(140, 30);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximumSize = new System.Drawing.Size(105, 24);
+            this.MinimumSize = new System.Drawing.Size(105, 24);
             this.Name = "Form1";
             this.Opacity = 0.6D;
             this.ShowInTaskbar = false;

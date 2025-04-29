@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>time-bomb_38785.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\clock.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -106,6 +106,8 @@
     <None Include="Resources\Снимок экрана 2022-02-13 205740.png" />
     <None Include="Resources\1477451-200.png" />
     <None Include="Resources\chill.jpg" />
+    <None Include="Resources\clock.png" />
+    <None Include="Resources\clock.ico" />
     <Content Include="time-bomb_38785.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
