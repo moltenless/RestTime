@@ -1,4 +1,5 @@
-# RestTime  
+# RestTime  (Screenshots are below)
+  
 ⏰ RestTime: Your Desktop Eye Saver 🧘Stay refreshed and protect your eyes with RestTime, a simple desktop utility that reminds you to take regular breaks.  
 ⏰ Set your preferred time interval, and a gentle window notification will pop up, prompting you to rest your eyes. Prioritize your well-being and combat screen fatigue with RestTime!  
   
